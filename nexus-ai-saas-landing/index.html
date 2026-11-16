@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusAI — Next-Gen Autonomous Workflow Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ambient Background Glows -->
+    <div class="glow-orb orb-purple"></div>
+    <div class="glow-orb orb-cyan"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>Nexus<span class="text-gradient">AI</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#analytics">Architecture</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#pricing" class="btn btn-ghost">Sign In</a>
+                <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="badge fade-up">
+                <span class="badge-dot"></span>
+                <span>NexusAI Engine v2.4 is now live</span>
+            </div>
+            <h1 class="hero-title fade-up delay-1">
+                Automate Complex Workflows with <span class="text-gradient">Autonomous AI</span>
+            </h1>
+            <p class="hero-subtitle fade-up delay-2">
+                Deploy enterprise-grade neural agents in seconds. Connect your data stack, eliminate manual bottlenecks, and scale operations with real-time predictive intelligence.
+            </p>
+            <div class="hero-cta fade-up delay-3">
+                <a href="#pricing" class="btn btn-primary btn-lg">Deploy Your First Agent →</a>
+                <a href="#features" class="btn btn-secondary btn-lg">Explore Live Demo</a>
+            </div>
+
+            <!-- Interactive Dashboard Mockup -->
+            <div class="dashboard-mockup fade-up delay-4">
+                <div class="mockup-header">
+                    <div class="window-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="mockup-url">app.nexusai.io/dashboard/neural-pipeline</div>
+                    <div class="mockup-status">
+                        <span class="status-pulse"></span> Live Telemetry
+                    </div>
+                </div>
+                <div class="mockup-body">
+                    <div class="mockup-sidebar">
+                        <div class="sidebar-item active">⚡ Neural Pipeline</div>
+                        <div class="sidebar-item">🧠 Model Registry</div>
+                        <div class="sidebar-item">📊 Token Analytics</div>
+                        <div class="sidebar-item">🔐 Vault & Keys</div>
+                    </div>
+                    <div class="mockup-main">
+                        <div class="metric-row">
+                            <div class="metric-card">
+                                <span class="metric-label">Active Agents</span>
+                                <div class="metric-val">1,428 <span class="metric-trend positive">+24.8%</span></div>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Avg. Inference Latency</span>
+                                <div class="metric-val">14.2ms <span class="metric-trend cyan">-38%</span></div>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-label">Tasks Automated</span>
+                                <div class="metric-val">9.4M <span class="metric-trend positive">99.98% SLA</span></div>
+                            </div>
+                        </div>
+                        <div class="pipeline-visual">
+                            <div class="node node-input">
+                                <span class="node-tag">INPUT STREAM</span>
+                                <strong>Webhook & SQL Sync</strong>
+                                <small>12,400 events/sec</small>
+                            </div>
+                            <div class="connector">
+                                <div class="data-packet"></div>
+                            </div>
+                            <div class="node node-core">
+                                <span class="node-tag">NEXUS CORE LLM</span>
+                                <strong>Context Routing & Reasoning</strong>
+                                <small>Zero-shot orchestration</small>
+                            </div>
+                            <div class="connector">
+                                <div class="data-packet delay-packet"></div>
+                            </div>
+                            <div class="node node-output">
+                                <span class="node-tag">ACTION EXECUTION</span>
+                                <strong>CRM, Slack & API Dispatch</strong>
+                                <small>Verified & Logged</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted Logos -->
+    <section class="trusted-section">
+        <div class="container">
+            <p class="trusted-label">POWERING HIGH-VELOCITY ENGINEERING TEAMS AT</p>
+            <div class="logo-strip">
+                <span>VERCEL</span>
+                <span>LINEAR</span>
+                <span>RAYCAST</span>
+                <span>SUPABASE</span>
+                <span>ANTHROPIC</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid Features -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-kicker">CAPABILITIES</span>
+                <h2>Engineered for <span class="text-gradient">Extreme Throughput</span></h2>
+                <p>Everything you need to orchestrate multi-agent pipelines without managing brittle infrastructure.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Card 1: Large -->
+                <div class="bento-card bento-span-2 fade-up">
+                    <div class="bento-content">
+                        <div class="bento-icon purple-glow">⚡</div>
+                        <h3>Sub-20ms Edge Inference</h3>
+                        <p>Globally distributed neural routing ensures your AI agents respond instantaneously across 35+ edge regions with automatic failover.</p>
+                    </div>
+                    <div class="bento-visual-bars">
+                        <div class="bar-item"><span>US-East</span><div class="bar-track"><div class="bar-fill" style="width: 92%"></div></div><span>11ms</span></div>
+                        <div class="bar-item"><span>EU-Central</span><div class="bar-track"><div class="bar-fill cyan-fill" style="width: 88%"></div></div><span>14ms</span></div>
+                        <div class="bar-item"><span>AP-Tokyo</span><div class="bar-track"><div class="bar-fill" style="width: 84%"></div></div><span>18ms</span></div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bento-card fade-up">
+                    <div class="bento-icon cyan-glow">🛡️</div>
+                    <h3>SOC2 & Zero-Retention</h3>
+                    <p>Enterprise encryption at rest and in transit. Your proprietary prompts and datasets are never used for model training.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bento-card fade-up">
+                    <div class="bento-icon purple-glow">🔗</div>
+                    <h3>150+ Native Integrations</h3>
+                    <p>One-click OAuth connectors for PostgreSQL, Snowflake, Notion, Slack, GitHub, and custom REST/GraphQL endpoints.</p>
+                </div>
+
+                <!-- Card 4: Large -->
+                <div class="bento-card bento-span-2 fade-up" id="analytics">
+                    <div class="bento-content">
+                        <div class="bento-icon cyan-glow">🧠</div>
+                        <h3>Autonomous Memory & Vector Graph</h3>
+                        <p>Built-in hybrid semantic search indexes millions of documents automatically, giving your agents persistent long-term context.</p>
+                    </div>
+                    <div class="code-preview">
+                        <code>
+<span class="c-purple">const</span> agent = <span class="c-cyan">await</span> nexus.createAgent({<br>
+&nbsp;&nbsp;model: <span class="c-green">"nexus-ultra-v2"</span>,<br>
+&nbsp;&nbsp;memory: <span class="c-green">"vector-hybrid"</span>,<br>
+&nbsp;&nbsp;autonomousRetry: <span class="c-purple">true</span><br>
+});
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-Tier Interactive Pricing -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-kicker">TRANSPARENT PRICING</span>
+                <h2>Scale from Prototype to <span class="text-gradient">Enterprise</span></h2>
+                <p>Start free. Upgrade as your autonomous agent workload grows.</p>
+
+                <!-- Monthly / Annual Toggle -->
+                <div class="billing-toggle">
+                    <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+                    <button class="switch" id="billingSwitch" aria-label="Toggle billing cycle">
+                        <span class="switch-thumb"></span>
+                    </button>
+                    <span class="toggle-label" id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Starter -->
+                <div class="pricing-card fade-up">
+                    <div class="plan-header">
+                        <h3>Starter</h3>
+                        <p>For solo builders & rapid prototyping</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="29" data-annual="23">29</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Up to 5 Active AI Agents</li>
+                        <li>✓ 100,000 Monthly Token Executions</li>
+                        <li>✓ Standard Vector Memory (5GB)</li>
+                        <li>✓ Community Discord Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary btn-full">Get Started</a>
+                </div>
+
+                <!-- Pro (Featured) -->
+                <div class="pricing-card featured fade-up">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <div class="plan-header">
+                        <h3>Pro Scale</h3>
+                        <p>For high-growth SaaS & product teams</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="99" data-annual="79">99</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Unlimited Active AI Agents</li>
+                        <li>✓ 2.5M Monthly Token Executions</li>
+                        <li>✓ Edge Inference Routing (&lt;20ms)</li>
+                        <li>✓ 150+ Native Integrations</li>
+                        <li>✓ Priority 24/7 Slack Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-full">Start 14-Day Free Trial</a>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="pricing-card fade-up">
+                    <div class="plan-header">
+                        <h3>Enterprise</h3>
+                        <p>Dedicated clusters & custom SLAs</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="299" data-annual="239">299</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Dedicated Single-Tenant GPU Cluster</li>
+                        <li>✓ Unlimited Executions & Custom Models</li>
+                        <li>✓ SOC2 Type II + HIPAA Compliance</li>
+                        <li>✓ Custom Fine-Tuning Pipeline</li>
+                        <li>✓ Dedicated Solutions Architect</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary btn-full">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-kicker">SOCIAL PROOF</span>
+                <h2>Loved by <span class="text-gradient">AI Pioneers</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-up">
+                    <p>"NexusAI cut our customer onboarding pipeline latency by 74%. What used to take three engineers a week now runs autonomously."</p>
+                    <div class="author">
+                        <div class="avatar">EL</div>
+                        <div>
+                            <strong>Elena Rostova</strong>
+                            <span>VP of Engineering, CloudScale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up">
+                    <p>"The bento workflow builder and zero-retention security allowed us to pass enterprise compliance in days instead of months."</p>
+                    <div class="author">
+                        <div class="avatar cyan-avatar">MC</div>
+                        <div>
+                            <strong>Marcus Chen</strong>
+                            <span>CTO, FinPulse AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up">
+                    <p>"Hands down the cleanest developer experience in the AI orchestration space. Sub-20ms edge routing feels like magic."</p>
+                    <div class="author">
+                        <div class="avatar">SK</div>
+                        <div>
+                            <strong>Sarah Jenkins</strong>
+                            <span>Lead AI Architect, SynthLabs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section id="faq" class="faq-section">
+        <div class="container faq-container">
+            <div class="section-header fade-up">
+                <span class="section-kicker">FAQ</span>
+                <h2>Frequently Asked <span class="text-gradient">Questions</span></h2>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How quickly can we deploy our first autonomous agent?</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Most teams deploy their first production workflow in under 10 minutes using our pre-built templates or TypeScript/Python SDKs.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Is our company data used to train foundational models?</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Never. NexusAI operates under strict zero-data-retention agreements. All payloads are encrypted with AES-256 and processed in isolated environments.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can we bring our own API keys (OpenAI, Anthropic, Custom)?</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Yes! You can seamlessly route requests across OpenAI, Anthropic, Mistral, or your own self-hosted open-source weights via our unified gateway.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can I switch between monthly and annual billing anytime?</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Yes, you can upgrade, downgrade, or switch billing cycles at any time directly from your workspace billing dashboard with automatic prorated credits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-box fade-up">
+                <h2>Ready to Build the Future of Work?</h2>
+                <p>Join 4,500+ forward-thinking teams automating mission-critical workflows with NexusAI.</p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary btn-lg">Start Building Free →</a>
+                    <a href="#features" class="btn btn-secondary btn-lg">Book Architecture Call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">✦</span>
+                    <span>Nexus<span class="text-gradient">AI</span></span>
+                </a>
+                <p>Next-generation autonomous workflow engine built for speed, security, and scale.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#analytics">Security</a>
+                </div>
+                <div>
+                    <h4>Developers</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Status (99.99%)</a>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 NexusAI Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
